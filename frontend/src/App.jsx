@@ -14,8 +14,8 @@ function App() {
         <div style={{width:"100%",height:"10vh",backgroundColor:"rgb(123, 123, 226)",top:"0",
         margin:"0",padding:"0",zIndex:"1000px",position:"fixed",display:"flex"
         }}>
-        <h2>Ticket Booking</h2>
-        <div style={{paddingLeft:"1000px",paddingTop:"5px"}}>
+        <h2 style={{paddingLeft:"30px"}}>Ticket Booking</h2>
+        <div style={{paddingLeft:"1050px",paddingTop:"5px"}}>
         <Link className='home' to="/"><h3>Home</h3></Link>
         </div>
          </div>

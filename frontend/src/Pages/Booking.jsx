@@ -7,7 +7,7 @@ function Booking() {
   const location = useLocation();
   const { from, to } = location.state || {};
 
-  // 🔥 handle empty state
+  //  handle empty state
   if (!from || !to) {
     return <h3>Please search buses first</h3>;
   }

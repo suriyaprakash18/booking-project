@@ -10,7 +10,7 @@ function SeatSelection() {
 
   const seats = Array.from({ length: 20 }, (_, i) => ({
     id: i + 1,
-    // booked: i === 2 || i === 5
+   
   }));
 
   const handleSelect = (seat) => {
@@ -23,11 +23,6 @@ function SeatSelection() {
     }
   };
 
-//   const handleConfirm = () => {
-//     navigate("/confirm", {
-//       state: { selectedSeats, bus, from, to }
-//     });
-//   };
 
 const handleConfirm = () => {
   if (selectedSeats.length === 0) {
